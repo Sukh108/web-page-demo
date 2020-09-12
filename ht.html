@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style type="text/css">
+
+         a{text-decoration: none;font-size: 20px;font-family: arial;padding: 14px 10px}
+         ul{padding: 14px}
+         li{list-style: none;display: inline;}
+         li a{background: #222;color: #d4d4d4;}
+         li a:hover{background: #4da4ff;color: #fff;}
+         .nav{background: #222;height: 50px}
+         .sub{display: none;}
+         .nav ul li:hover .sub{
+            display: block;
+            position: absolute;
+            background: #222;
+            margin-top: 15px;
+            margin-left: 150px;
+
+         }
+         .nav ul li:hover .sub li{
+            display: block;
+            margin: 30px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+         <ul>
+             <li><a href="#">home</a></li>
+             <li><a href="#">about us</a></li>
+             <li><a href="#">contact</a></li>
+             <li><a href="#">services</a>
+                 <div class="sub">
+                      <ul>
+                          
+                          <li><a href="#">import and export</a></li>
+                          <li><a href="#">modes of trans</a></li>
+                     </ul>
+                 </div>
+             </li>
+         </ul>
+
+
+    </div>
+    <div style="margin:20px 0"><center>
+         <iframe src="ch_iframe"></iframe>
+    </center></div>
+</body>
+</html>
